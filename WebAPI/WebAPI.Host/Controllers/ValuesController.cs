@@ -64,7 +64,7 @@ namespace WebAPI.Host.Controllers
         }
 
         [HttpDelete]
-        [Authorize(Roles = "SuperUser")]
+        //[Authorize(Roles = "SuperUser")]
         public async Task<IHttpActionResult> Delete(int id)
         {
             await _valuesFcd.Delete(id);

@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.BLL.Tests", "WebAPI.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.Host", "WebAPI.Host\WebAPI.Host.csproj", "{A483C358-0218-47A0-95B5-EBC332481AD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.IdServer", "WebAPI.IdServer\WebAPI.IdServer.csproj", "{90CCEBAC-097C-4312-82DE-1AA0094BED8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{A483C358-0218-47A0-95B5-EBC332481AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A483C358-0218-47A0-95B5-EBC332481AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A483C358-0218-47A0-95B5-EBC332481AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CCEBAC-097C-4312-82DE-1AA0094BED8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CCEBAC-097C-4312-82DE-1AA0094BED8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CCEBAC-097C-4312-82DE-1AA0094BED8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CCEBAC-097C-4312-82DE-1AA0094BED8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
